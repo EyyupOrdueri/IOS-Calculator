@@ -21,6 +21,22 @@
     margin: auto;
     font-size: 50px;
     padding: 20px;
+    overflow: hidden;
+}
+
+.process {
+    height: 40%;
+    color: white;
+    text-align: end;
+    opacity: 0.5;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.outcome {
+    height: 60%;
+    color: white;
+    text-align: end;
 }
 
 .buttons {
@@ -31,12 +47,13 @@
     justify-content: center;
 }
 
-.buttons button {
+button {
     color: var(--tuscolor);
     font-size: 30px;
     background-color: var(--tusbcgsayi);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+    font-size: 30px;
 }
 
 .buttons button:hover {
@@ -44,28 +61,25 @@
     opacity: 0.5;
 }
 
-.row1-1 button, .row1-2 button, .row1-3 button {
+.row1-1, .row1-2, .row1-3 {
     background-color: var(--tusbcgop);
     color: var(--siyah);
 } 
 
-.row1-4 button, .row2-4 button, .row3-4 button, .row4-4 button {
+.row1-4, .row2-4, .row3-4, .row4-4 {
     background-color: var(--tusbcgsari);
 } 
 
 .container .buttons .row5-1 {
     grid-row: 5/5;
     grid-column: 1/3;
-}
-
-.container .buttons .row5-1 button {
     width: 154px;
     border-radius: 36px;
     text-align: left;
     padding-left: 28px;
 }
 
-.buttons .box button {
+.buttons button {
     width: 72px;
     height: 72px;
     border-radius: 50%;
